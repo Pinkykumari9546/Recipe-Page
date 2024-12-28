@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    background-color: hsl(30, 54%, 90%);
+    
+   font-size:  hsl(30, 18%, 87%);
+   animation:hsl(30, 10%, 34%);
+   direction:hsl(24, 5%, 18%);
+   display: hsl(332, 51%, 32%);
+    empty-cells:hsl(330, 100%, 98%);
+   
+}
+.wrapper{
+    
+    width: 100%;
+    background-color: --var(background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.section{ 
+    margin-top: 8rem;
+    width: 50rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 8rem;
+    
+}
+.omelatte_imag{
+    height: 20rem;
+    width: 45rem;
+    background-image: url("assets/images/image-omelette.jpeg");
+    background-size: cover;
+    margin: 2.5rem;
+    border-radius: 1rem;
+
+}
+p ,li{
+    font-family: "Outfit", sans-serif;
+    font-weight: 540;
+    font-size: 1rem;
+    color: hsl(0, 46%, 11%);
+    opacity: 62%;
+}
+h1{
+    color: --var(direction);
+}
+ h1,p,.ingredients ,.instructions,.preparation ,.nutrient{
+    margin: 2.5rem;
+} 
+h1,h2,h4{
+    font-family: "Young Serif", serif;
+   
+}
+h1{
+    font-size: 3rem;
+    color:hsl(12, 6%, 17%) ;
+}
+h2{
+    font-size: 2rem;
+}
+h2 ,.span1,.span2,.span3,.span4{
+    color:hsl(14, 45%, 36%);
+    
+} 
+.span1,.span2,.span3,.span4{
+    font-size: 1rem;
+    font-weight: 800;
+    color: hsl(15, 64%, 20%);
+}
+li{
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+}
+.preparation{
+    padding: 1rem;
+}
+.ingredients hr{
+    margin-top: 2rem;
+}
+.instructions hr{
+    margin-top: 2rem;
+}
+.instructions  ol li span{
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+}
+.preparation ul li span{
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+}
+.preparation h4{
+    padding-left: .8rem;
+    color: hsla(0, 78%, 35%, 0.884);
+    font-size: 1.5rem;
+}
+
+.para2{
+    
+    padding: .03rem;
+}
+.nutrient p{
+    margin: 1.4rem;
+}
+.para1{
+    margin-left: -0.1rem;
+    margin-top: 1.5rem;
+}
+.para2 span{
+    margin-left: 18rem;
+}
+.span2{
+    margin-left: 2rem;
+    padding-left: 1rem;
+}
+.span3{
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+}
+.span4{
+    margin-left: 2rem;
+    padding-left: 2rem;
+}
+
+
+
+   
